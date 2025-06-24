@@ -1,0 +1,33 @@
+# Rust
+target/
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Runtime
+*.pdb
+
+# Environment
+.env
+.env.local
+.venv
+
+# Build artifacts
+/target
+**/*.rs.bk
+
+# Memory bank (development only)
+/.cursor/memory/
+
+grpcurl
